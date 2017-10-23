@@ -1,0 +1,95 @@
+body {
+    font-family: 'Open Sans', monospace;
+    justify-content: space-around;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+.clearfix:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.container {
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.left {
+    width: 45%;
+    border: 1px solid gainsboro;
+}
+
+.right {
+    width: 40%;
+}
+
+h2 {
+    font-size: 20px;
+    color: green;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 60px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.contacts {
+    color: gray;
+    display: flex;
+}
+
+.contacts h3 {
+    font-size: 20px;
+    color: black;
+}
+
+.contacts ul {
+    line-height: 30px;
+    margin: 20px;
+}
+
+li {
+    position: relative;
+}
+
+li:first-child:before {
+    content: '\f095';
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
+li:nth-child(2):before {
+    content: '\f1d8';
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
+li:nth-child(3):before {
+    content: '\f124';
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
